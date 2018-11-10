@@ -32,6 +32,8 @@ How can we use python to power web services? What is a web service, anyways? In 
 ## [My REPL.it Environment](https://repl.it/@mottaquikarim/CapitalTrustworthyAdministration)
 Class notes, basically.
 
+## [My ShoppingList Implementation](https://repl.it/@mottaquikarim/ProfitableGrotesqueClient)
+
 
 ## Taq Karim
 <img src="https://github.com/mottaquikarim/FEWDRemote/blob/master/assets/Image-1-1.jpg?raw=true" style="width: 100px; height: auto; border: 1px solid black" width="100" align="left"> 
