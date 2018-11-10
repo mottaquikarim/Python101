@@ -1,6 +1,7 @@
 ![pycon](https://github.com/mottaquikarim/PythonBootcamp/blob/master/assets/pycon.png?raw=true)
 
 # Python101
+*🎉🎈🎂🍾🎊🍻💃*
 
 *A hands on and practical introduction
  to programming and python development.*
