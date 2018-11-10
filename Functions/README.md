@@ -66,6 +66,52 @@ def increase_by_5(a,b):
 c, d = increase_by_5(1,2) # c = 6, d = 7
 ```
 
+## Conditionals
+
+We can use booleans to "make decisions" within our code.
+
+```python
+
+if True:
+  # this line will run
+
+```
+
+We use comparison operators in python within conditional statements
+
+```python
+a = 1
+if a > 0:
+  print(a)
+  a + 1
+```
+
+The above will only run if `(a>0)` is true
+
+We can do compound statements with `and` or `or` keywords
+
+```python
+if a > 0 and a % 2 == 0:
+  # if a is a positive number and even
+  
+if a < 0 or a % 2 != 0:
+  # if a is negative number and odd
+```
+
+We can use `is` keyword to check for equality
+
+```python
+if a is None:
+  # runs if a is not yet defined
+  
+a = 1
+
+if a is 1:
+  # will run, since we set a to be 1
+```
+
+
+
 ## 🚗 Practice: Shopping List Calculator IV
 
 Builds off of [Shopping List Calculator III](https://github.com/mottaquikarim/Python101/blob/master/Basic_Data_Types/README.md#-practice-shopping-list-calculator-iii).
@@ -79,5 +125,10 @@ Write a function - **`get_item`** - that asks user for three inputs (from keyboa
 It should print out: `{item_quantity} {item_name} = ${item_price}.` AND return the `item_price`.
 
 Write another function - **get_total** that takes each `item_price` returned from previous **`get_item`** function and computes the total with tax.
+
+
+## 🚗 Practice: Shopping List Calculator V
+
+Write a function, **`within_budget`** that takes two arguments: `total` and `budget` and replies True or False based on whether `total` is greater than `budget`. `budget` should be an optional parameter that defaults to `None`
 
 
