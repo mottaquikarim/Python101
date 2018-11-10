@@ -15,16 +15,25 @@ The purpose of this workshop is to introduce some fundamental concepts of softwa
 Here's the general game plan for the day.
 
 ### [1. Setting Up Our Environment](Setting_Up_Our_Environment)
+Before we get into writing our code, we will have to install a few programs and tools. It may take about a half hr to pull off but ultimately a properly established development environment will pay off in spades as we navigate the rest of our day.
 
 ### [2. Basic Data Types](Basic_Data_Types)
+We will begin by exploring some of the basics of the python programming language. For example, how can we keep track of data in python?
 
 ### [3. Functions](Functions)
+In this section we will consider a core concept in programming: functions. Some questions we will answer: How does decision making work? Can we automate functionality so that we don't have to repeat ourselves? 
 
 ### [4. Lists and Dicts](Lists_and_Dicts)
+Complex data and situations in real life can be modeled in python using data structures that are a bit more complex than the basic data types we previously covered. Here, we will discuss looping and modeling real world data in a "pythonic" manner.
 
 ### [5. Modules](Modules)
+What makes python super useful is the existence of an ecosystem of code written by others and distributed for us to use - for free! We will explore how these items can be used to enhance our code.
 
 ### [6. Simple Webservice](Simple_Webservice)
+How can we use python to power web services? What is a web service, anyways? In this section, we will cover such concepts and then delve into making our own, simple web service.
+
+## [My REPL.it Environment](https://repl.it/@mottaquikarim/CapitalTrustworthyAdministration)
+Class notes, basically.
 
 
 ## Taq Karim
