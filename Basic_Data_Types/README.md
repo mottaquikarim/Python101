@@ -118,6 +118,14 @@ boolean_type = type(True) # <class 'bool'>
 
 We use booleans primarily in conditional statements
 
+## Nonetype
+
+`None` represents variables that have not yet been defined.
+
+```
+print(type(None)) # <class 'NoneType'>
+```
+
 ## Typecasting
 
 Sometimes, we need to convert one datatype to another. Typecasting allows us to convert between types
