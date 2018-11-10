@@ -132,4 +132,114 @@ student.items() # [('taq', [86, 45, 98, 100]), ('sue', [100, 100, 100, 100]), et
 
 ## Iterating Lists / Dicts
 
-## Comprehensions
+In programming, we define iteration to be the act of running the same block of code over and over again a certain number of times. In simplest terms, this can be defined as:
+
+```python
+for i in range(11, 15):
+    print(i, i ** 2)
+    
+# the above will print:
+# 11 121
+# 12 144
+# 13 169
+# 14 196
+# 15 225
+```
+
+However, we can iterate over lists and dicts! Neato!
+
+List iteration ex:
+
+```python
+test_scores = [100, 68, 95, 84, 79, 99]
+for score in test_scores:
+  if score > 85:
+    print(score, "passed!")
+  else:
+    print(score, "failed!")
+    
+# 100 passed!
+# 68 failed!
+# 95 passed!
+# 84 failed!
+# 79 failed!
+# 99 passed!
+
+```
+
+Dict iteration ex:
+
+```python
+students = {
+  'taq': [86, 45, 98, 100],
+  'sue': [100, 100, 100, 100],
+  'jon': [38, 49, 90, 87],
+}
+
+def avg(list_of_grades):
+  sum = 0
+  for grade in list_of_grades:
+    sum = sum + grade
+  
+  return sum / len(list_of_grades)
+  
+for student, grades in students.items():
+  avg_student = avg(grades)
+  if avg_student > 70:
+    print(f"{student} passed with avg of {avg_student}")
+  else:
+    print(f"{student} failed with avg of {avg_student}")
+```
+
+Want index number in array loop?
+
+```python
+test_scores = [100, 68, 95, 84, 79, 99]
+for idx, score in enumerate(test_scores):
+  print(idx, score)
+```
+
+## 🚗 Practice: Shopping List Calculator VI
+
+Write a function **`compute_total`** that takes a **list** of tuples like so: **`('orange juice', 4.00)`**, iterates over them and returns the total cost including tax.
+
+## 🚗 Practice: Shopping List Calculator VII
+
+Write a function **`compute_total_with_dict`** that takes a **dict** like so: **`{'orange juice': 4.00}`**, iterates over them and returns the total cost including tax.
+
+## 🚗 Practice: Shopping List Calculator VIII
+
+Write a function **`compute_total_with_quant_1`** that takes a **list** of tuples like so: **`('orange juice', (4.00, 3))`**, iterates over them and returns the total cost including tax.
+
+## 🚗 Practice: Shopping List Calculator IX
+
+Write a function **`compute_total_with_quant_2`** that takes a **dict** like so: **`{'orange juice': (4.00, 3)}`**, iterates over them and returns the total cost including tax.
+
+## 🚗 Practice: Shopping List Calculator X
+
+Let's improve our calculator! Remember **[this](https://github.com/mottaquikarim/Python101/tree/master/Basic_Data_Types#-practice-shopping-list-calculator-i)** problem? Let's do it again, but this time - instead of hardcoding the variables, let's use a loop. Based on the inputs below, develop a problem where user can interactively add as many shopping list items as he wants and see the running total:
+
+(The *>* is computer prompt, *<* is user response)
+
+```
+> How many items?
+< 2
+> 1. Enter name of item:
+< Eggs
+> 1. Enter price of item:
+< 2.00
+> 1. Enter quantity of item:
+> 6
+
+> 2. Enter name of item:
+< Steak
+> 2. Enter price of item:
+< 14.00
+> 2. Enter quantity of item:
+> 1
+
+> Your total is: 26.00
+> Tax is: 2.28
+> Total total is: 28.28
+
+```
