@@ -34,6 +34,51 @@ list_.append(1) # [1]
 list_.append(2) # [1,2]
 ```
 
+Here's some **[useful list methods](https://docs.python.org/3/tutorial/datastructures.html)** in python.
+
+## Tuples
+
+Tuples are a special subset of lists - they can only have two values and they are *immutable* - in that they cannot be changed after creation.
+
+We write tuples as:
+
+```python
+score_1 = ('Taq', 100)
+
+# OR
+
+score_2 = 'Sue', 101
+```
+
+Tuples are denoted with the `()`.
+
+We read tuples just like we would read a list:
+
+```python
+print(score_1[0]) # 'Taq'
+```
+
+## Sets
+
+Sets are special lists in that they can only have **unique** elements
+
+```python
+set_1 = {1,2,3,4,5} # this is a set, notice the {}
+set_2 = {1,1,1,2,2,3,4,5,5,5} # this is still a set
+print(set_2) # {1,2,3,4,5}
+
+print(set_1 == set_2) # True
+```
+
+Sets are not indexed, so you cannot access say the 3rd element in a set. Instead, you can:
+
+```python
+print(2 in set_1) # True
+print(9 in set_1) # False
+```
+
+Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
+
 ## Dicts
 
 Dicts, or dictionaries, are key value pairs that act as another method for storing complex data.
