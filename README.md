@@ -1,10 +1,6 @@
 ![pycon](https://github.com/mottaquikarim/PythonBootcamp/blob/master/assets/pycon.png?raw=true)
 
 # Python101
-Introduction to Python, GA
-
-
-# PYTHON: THE BASICS
 
 *A hands on and practical introduction
  to programming and python development.*
